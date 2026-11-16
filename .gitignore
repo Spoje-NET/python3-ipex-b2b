@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+debian/.debhelper/
+debian/*.debhelper.log
+debian/*.substvars
+debian/files
+debian/debhelper-build-stamp
+debian/mcp-server-ipex/
+debian/mcprack-mcp-server-ipex/
+debian/python3-ipex-b2b/
+debian/tmp/
+.pybuild/
+debian/*.debhelper

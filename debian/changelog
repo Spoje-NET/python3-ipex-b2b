@@ -1,0 +1,6 @@
+python3-ipex-b2b (0.1.0) unstable; urgency=medium
+
+  * Initial release: Python client for the IPEX B2B REST API
+    (restapi.ipex.cz), one method per API operation.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 16 Nov 2026 14:00:00 +0100

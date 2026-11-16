@@ -1,0 +1,29 @@
+Source: python3-ipex-b2b
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-hatchling,
+ python3-pytest,
+ python3-requests,
+Standards-Version: 4.7.0
+Homepage: https://github.com/Spoje-NET/python3-ipex-b2b
+Vcs-Git: https://github.com/Spoje-NET/python3-ipex-b2b.git
+Vcs-Browser: https://github.com/Spoje-NET/python3-ipex-b2b
+Rules-Requires-Root: no
+
+Package: python3-ipex-b2b
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ python3-requests,
+Description: Python client library for the IPEX B2B REST API
+ Provides a client for the IPEX B2B REST API (restapi.ipex.cz): token
+ handling with automatic refresh and one method for every API operation
+ (customers, services, VoIP and mobile numbers, calls, invoices, PBX,
+ connectors, reports, ...). Python counterpart of php-spojenet-ipex-b2b.

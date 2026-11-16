@@ -1,0 +1,3 @@
+version=4
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/python3-ipex-b2b-$1\.tar\.gz/ \
+  https://github.com/Spoje-NET/python3-ipex-b2b/tags .*/v?(\d\S+)\.tar\.gz
